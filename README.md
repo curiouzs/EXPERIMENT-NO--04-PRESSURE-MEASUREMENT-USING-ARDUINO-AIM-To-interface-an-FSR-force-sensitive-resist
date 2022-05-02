@@ -100,7 +100,8 @@ void loop()
 
 OUTPUT VOLTAGES AND CHANGE IN RESISTANCES
 
-![xe2](https://user-images.githubusercontent.com/75234646/166292567-a4bdb62b-6754-4e21-a1f8-b5e3283600ce.png)
+
+![WhatsApp Image 2022-05-02 at 10 37 00 PM](https://user-images.githubusercontent.com/75234646/166292651-6e9acf03-7fa8-4355-a298-8eccd9478c0d.jpeg)
 
 
 
