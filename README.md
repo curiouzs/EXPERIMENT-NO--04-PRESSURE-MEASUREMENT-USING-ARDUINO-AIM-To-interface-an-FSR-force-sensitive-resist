@@ -73,25 +73,25 @@ The easiest way to measure a resistive sensor is to connect one end to power and
 ### PROGRAM 
 ```c 
 
+int force = 0;
 
-int force=0;
-float f=0;
-
-void setup(){
-  pinMode(A0,INPUT);
-  //pinMode(8,OUTPUT);
-  Serial.begin(9600);
+void setup()
+{
+ pinMode(A0, INPUT);
+ pinMode(8, OUTPUT);
+ Serial.begin(9600);
 }
 
-void loop(){
-	force = analogRead(A0);
-  f=map(force,0,1024,0,10);
- // Serial.print("force- ");
-  Serial.println(f);
-  analogWrite(8,force);
- delay(1000);
-  
-} 
+void loop()
+{
+ force = analogRead(A0);
+ int f = map(force,0,512,0,10);
+ Serial.print("Force = ");
+ Serial.println(f);
+ analogWrite(8,force);
+ delay(1000); 
+ 
+}
 
 ```
  
