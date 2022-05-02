@@ -96,11 +96,14 @@ void loop(){
 ```
  
 
-### TABLE -02 OUTPUT VOLTAGES AND CHANGE IN RESISTANCES
+### TABLE -02 
+
+OUTPUT VOLTAGES AND CHANGE IN RESISTANCES
 
 
 
 
 
 
-### RESULTS : Arduino uno is interfaced with FSR and output values are indicated on a graph.
+### RESULTS :
+Arduino uno is interfaced with FSR and output values are indicated on a graph.
